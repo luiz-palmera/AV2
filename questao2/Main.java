@@ -5,7 +5,7 @@ public class Main {
         AchadoPerdido ap = new AchadoPerdido();
 
         ap.AchadoPerdido("452", "Anel dourado", "Joia", "Perdido");
-        ap.completaDados("foto.png","Super Mercado", "22:33  15/10/2005");
+        ap.completaDados("foto.png","Super Mercado", "22:33 - 15/10/2005");
         System.out.println(ap.visualizarDetalhes());
     }
 }
